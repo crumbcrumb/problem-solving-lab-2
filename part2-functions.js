@@ -16,4 +16,4 @@ function calculateTip(total, percentage) {
 
 function checkEvenOdd(num) {
   
-}
+}*/
