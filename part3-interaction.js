@@ -9,6 +9,5 @@ function sayHello() {
 function showName() {
     let nameElement = document.getElementById("nameInput");
     let outputElement = document.getElementById("output");
-    let fullName = nameElement.value;
-    outputElement.innerHTML = `Hello, ${fullName}!`;
+    outputElement.innerHTML = nameElement.value;;
   }
