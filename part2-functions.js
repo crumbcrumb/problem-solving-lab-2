@@ -11,11 +11,11 @@ console.log(dogToHumanYears(7));
 //2. Tip Calculator
 
 function calculateTip(total, percentage) {
-  let tip = total * percentage + total;
+  let tip = total * percentage;
   return tip;
 }
 console.log(calculateTip(1000, 0.17));
-console.log(calculateTip(289, 0.2));
+console.log(calculateTip(290, 0.2));
 console.log(calculateTip(75, 0.15));
 
 //3. Even or Odd
