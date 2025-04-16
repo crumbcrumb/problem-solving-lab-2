@@ -43,5 +43,11 @@ console.log(guests.length)
 
 // Example:
 
-// let lunches = ["burrito", "pizza", "sandwich", "ramen"];
-// console.log(randomLunch(lunches)); // "pizza"
+let lunches = ["burrito", "pizza", "sandwich", "ramen"];
+
+function randomLunch() {
+let randItem = Math.floor(Math.random() * lunches.length)
+return lunches[randItem]
+}
+
+console.log(randomLunch(lunches)); 
