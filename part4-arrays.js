@@ -27,11 +27,11 @@ console.log(guests.length);
 
 let tasks = ["laundry", "groceries", "coding", "naps"];
 
-tasks.forEach(printTasks);
-
 function printTasks(tasks, index) {
-  console.log(`${index + 1}. ${tasks}`);
+  for (i = 0; i < tasks.length; i++)
+  console.log(`${i + 1}. ${tasks[i]}`);
 }
+printTasks(tasks);
 
 // ✅ Problem 4: Reverse It (Manual Reverse)
 // 1. Create this array:
